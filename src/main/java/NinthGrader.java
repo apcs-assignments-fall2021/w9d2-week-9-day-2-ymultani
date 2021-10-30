@@ -5,11 +5,8 @@ public class NinthGrader extends Student {
     public NinthGrader(){
         super("Milan","Boga");
     }
-    public void doSomething(String x){
-        System.out.println("I am currently " + x);
-    }
     public String toString(){
-        (getFirstName() + getLastName())
+        return (getFirstName() + " " + getLastName() + ", 2025(Ninth Grader)");
     }
 
 
